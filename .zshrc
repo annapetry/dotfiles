@@ -98,23 +98,3 @@ alias gs="git status --short"
 alias gco="git checkout"
 alias gb="git --no-pager branch"
 alias be="bundle exec"
-
-# export PATH="/usr/local/opt/icu4c/bin:$PATH"
-# export PATH="/usr/local/opt/icu4c/sbin:$PATH"
-# export PATH="/usr/local/opt/qt@5.5/bin:$PATH"
-export PATH="/usr/local/opt/postgresql@9.6/bin:$PATH"
-export NPM_TOKEN=redacted
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-
-export GOPATH="$HOME/go"
-export GOBIN="$GOPATH/bin"
-export PATH="$GOBIN:$PATH"
-
-eval "$(rbenv init -)"
-export PATH="/usr/local/opt/postgresql@9.6/bin:$PATH"
-
-eval "$(fasd --init auto)"
-export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
-export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
